@@ -1,0 +1,144 @@
+/* Hero */
+#hero {
+    background: linear-gradient(135deg, #F0F2F5 0%, #D9E2EC 100%);
+    padding-bottom: 100px;
+}
+
+/* About */
+#about {
+    background: linear-gradient(to right, #E3E9F0 0%, #F5F7FA 100%);
+    margin-top: -50px;
+    padding-top: 70px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/* Education */
+#education {
+    background: linear-gradient(135deg, #D7DCE1 0%, #F0F2F5 100%);
+    margin-top: -50px;
+    padding-top: 70px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/* Skills */
+#skills {
+    background: linear-gradient(to top, #DCE2F0 0%, #EFF2F7 100%);
+    margin-top: -50px;
+    padding-top: 70px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/* Projects */
+#projects {
+    background: linear-gradient(to right, #4C5C68 0%, #6C7A89 100%);
+    color: #151212;
+    margin-top: -50px;
+    padding-top: 70px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/* Achievements */
+#achievements {
+    background: linear-gradient(90deg, #D7E1EC 0%, #E5E9F2 100%);
+    margin-top: -50px;
+    padding-top: 70px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/* Problem Solving */
+#problem-solving {
+    background: linear-gradient(90deg, #CBD2E0 0%, #E3E9F0 100%);
+    margin-top: -50px;
+    padding-top: 70px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/* Participation */
+#participation {
+    background: linear-gradient(60deg, #E3E9F0 0%, #F7F9FB 100%);
+    margin-top: -50px;
+    padding-top: 70px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/* Certifications */
+#certifications {
+    background: linear-gradient(135deg, #DCE1E8 0%, #F3F6FA 100%);
+    margin-top: -50px;
+    padding-top: 70px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/* Contact */
+#contact {
+    background: linear-gradient(to right, #36454F 0%, #596873 100%);
+    margin-top: -50px;
+    padding-top: 70px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color: white;
+    
+}
+
+/* Card hover effects */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Section transitions */
+section {
+    position: relative;
+    overflow: visible;
+    padding-bottom: 80px;
+}
+
+/* Remove the original section::after since we're using curved borders now */
+section::after {
+    content: none;
+}
+
+/* Apply glass morphism to cards */
+.glass-card {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+}
+
+/* Add wave-like decorative elements for section transitions */
+.section-divider {
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.myDiv {
+    background-color: #6C7A89;
+    transition: background-color 0.3s ease;
+}
+
+.myDiv:hover {
+    background-color: hsl(var(--primary));
+}
