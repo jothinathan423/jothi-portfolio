@@ -60,7 +60,7 @@ const Hero = () => {
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-primary to-blue-400 absolute -bottom-4 -right-4 blur-md opacity-30"></div>
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl relative">
               <img 
-                src="/a2.jpg" 
+                src="/12.jpg" 
                 alt="Engineering Student Profile" 
                 className="w-full h-full object-cover"
               />
