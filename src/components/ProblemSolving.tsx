@@ -37,7 +37,7 @@ const ProblemSolving = () => {
                 <div className="relative">
                   <div className="text-sm font-medium flex justify-between items-center mb-1">
                     <span>Problems Solved</span>
-                    <span className="text-primary">100+</span>
+                    <span className="text-primary">200+</span>
                   </div>
                   <div className="w-full bg-secondary h-3 rounded-full overflow-hidden">
                     <div className="bg-gradient-to-r from-blue-500 to-blue-300 h-3 rounded-full" style={{ width: '70%' }}></div>
@@ -46,11 +46,11 @@ const ProblemSolving = () => {
                 
                 <div className="grid grid-cols-3 gap-4 text-center">
                   <div className="bg-secondary/50 p-3 rounded-lg">
-                    <div className="text-xl font-semibold text-blue-500">61</div>
+                    <div className="text-xl font-semibold text-blue-500">110</div>
                     <div className="text-xs text-muted-foreground">Easy</div>
                   </div>
                   <div className="bg-secondary/50 p-3 rounded-lg">
-                    <div className="text-xl font-semibold text-yellow-500">13</div>
+                    <div className="text-xl font-semibold text-yellow-500">32</div>
                     <div className="text-xs text-muted-foreground">Medium</div>
                   </div>
                   <div className="bg-secondary/50 p-3 rounded-lg">
@@ -99,15 +99,15 @@ const ProblemSolving = () => {
                 
                 <div className="grid grid-cols-3 gap-4 text-center">
                   <div className="bg-secondary/50 p-3 rounded-lg">
-                    <div className="text-xl font-semibold text-yellow-500">89</div>
+                    <div className="text-xl font-semibold text-yellow-500">142</div>
                     <div className="text-xs text-muted-foreground">Basic</div>
                   </div>
                   <div className="bg-secondary/50 p-3 rounded-lg">
-                    <div className="text-xl font-semibold text-yellow-500">75</div>
+                    <div className="text-xl font-semibold text-yellow-500">110</div>
                     <div className="text-xs text-muted-foreground">Easy</div>
                   </div>
                   <div className="bg-secondary/50 p-3 rounded-lg">
-                    <div className="text-xl font-semibold text-green-500">18</div>
+                    <div className="text-xl font-semibold text-green-500">32</div>
                     <div className="text-xs text-muted-foreground">Medium</div>
                   </div>
                   <div className="bg-secondary/50 p-3 rounded-lg">
