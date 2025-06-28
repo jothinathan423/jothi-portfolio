@@ -9,6 +9,28 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 const projectsData = [
   {
     id: 1,
+    title: "Smart Traffic Management System",
+    category: "IoT & Embedded Systems",
+    tags: ["Traffic Control", "Vehicle Density", "Automation"],
+    image: "/traffic.jpg",
+    shortDescription: "Designed an automated traffic signal control system based on real-time vehicle density detection to reduce congestion and improve traffic flow.",
+
+    fullDescription: `This project focused on developing a Smart Traffic Management System that uses vehicle density as a metric to dynamically control traffic signals without human intervention. Collaborated with team member Dharsani to design and implement the system.
+
+Key features:
+• Real-time vehicle density detection using sensors or image processing
+• Dynamic signal timing to reduce traffic congestion
+• Automatic priority for high-density lanes
+• No manual control required – fully automated logic
+• Scalable design for smart city implementation
+
+The system aims to reduce waiting time at signals, optimize fuel usage, and create a more efficient traffic environment through intelligent automation.`,
+
+    link: "#"
+  }
+,
+  {
+    id: 2,
     title: "JOE - kart Ecommerce website",
     category: "Web-Development",
     tags: ["user friendly", "PHP", "Responsive Design"],
@@ -29,7 +51,7 @@ The project showcases modern web technologies and is aimed at providing a smooth
     link: "https://github.com/jothinathan423/joe-e-kart"
   },
   {
-    id: 2,
+    id: 3,
     title: "CGPA Calculator",
     category: "Web-Development",
     tags: ["user friendly", "Javascript", "Responsive Design"],
@@ -50,7 +72,7 @@ The CGPA calculator helps students efficiently track their academic progress wit
     link: "https://jothinathan423.github.io/jothinathancgpa-calculator/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Online Blood Bank System",
     category: "Web-Development",
     tags: ["Responsive Design", "PHP", "database"],

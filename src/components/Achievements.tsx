@@ -8,26 +8,23 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 
 const achievementsData = [
   {
+    title: "First Place - Student Project Contest Spcon-25",
+    description: "Developed an traffic management system that manages the traffic lights based on the traffic density using image processing.",
+    tags: ["MERN", "Python", "Management"],
+    image: "/traffic.jpg",
+    fullDescription: "Developed an intelligent Traffic Management System that autonomously controls traffic lights based on real- time vehicle density detection, eliminating the need for manual intervention.This project was collaboratively built with my teammate Dharsani.",
+    Concept: "A smart system that dynamically adjusts traffic signal timing using sensors or camera-based input to reduce congestion, improve traffic flow, and increase road efficiency.",
+    Goal: "To optimize urban traffic control by using real-time data, reduce waiting times at signals, minimize fuel consumption, and enhance road safety without human involvement.",
+  
+  },
+  {
     title: "First Place - National Level Hackathon - PARADOX-2K25",
     description: "Developed an online platform that connects handmade artists with buyers interested in unique, handcrafted products",
     tags: ["MERN", "Responsive Design", "Accessibility"],
     image: "/photo-collage.png (1).png",
-    fullDescription: `Developed an online platform with my team member Dharsani,the platform that connects handmade artists with buyers interested in unique, handcrafted products
-    Concept: Online marketplace for handmade, local, and traditional artisan products.
+    Concept: "Online marketplace for handmade, local, and traditional artisan products.",
+  Goal: "Empower local artisans, provide them a digital platform to sell unique products, promote cultural crafts.",
 
-  Goal: Empower local artisans, provide them a digital platform to sell unique products, promote cultural crafts.
-
-  User Roles:
-
-  Customers: Browse, search, purchase products.
-
-  Artisans/Sellers: Register, manage their shop, add products.
-
-  Admins: Manage users, categories, transactions.
-
-  Product Listings:
-
-  Product images, descriptions, price, category (handicrafts, jewelry, textiles, etc.).`
   },
   {
     title: "First Place - Code Debugging Event - ASTA-2K25",
