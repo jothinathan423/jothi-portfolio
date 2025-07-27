@@ -48,7 +48,7 @@ const ProfileStats = () => {
                 </Card>
 
                 {/* Portfolio Visitors */}
-                <Card className="overflow-hidden border-primary/10 hover:border-primary/30 transition-colors">
+                {/* <Card className="overflow-hidden border-primary/10 hover:border-primary/30 transition-colors">
                     <CardHeader>
                         <CardTitle className="flex items-center gap-2">
                             <Globe className="text-primary" /> Portfolio Visitors
@@ -63,7 +63,7 @@ const ProfileStats = () => {
                             Live Count
                         </Badge>
                     </CardContent>
-                </Card>
+                </Card> */}
             </div>
         </section>
     );
