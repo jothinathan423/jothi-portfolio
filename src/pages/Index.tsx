@@ -12,6 +12,7 @@ import Participation from '@/components/Participation';
 import Certifications from '@/components/Certifications';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import ProfileStats from '@/components/ProfileStates';
 
 const Index = () => {
   return (
@@ -23,6 +24,7 @@ const Index = () => {
       <Skills />
       <Projects />
       <Achievements />
+      <ProfileStats/>
       <ProblemSolving />
       <Participation />
       <Certifications />

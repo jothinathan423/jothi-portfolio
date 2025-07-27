@@ -142,12 +142,15 @@ const AchievementCard = ({ achievement }: { achievement: any }) => {
                 <p className="whitespace-pre-line">{achievement.fullDescription}</p>
               </div>
             </div>
+            
           </DialogContent>
         </Dialog>
       </CardFooter>
     </Card>
   );
 };
+
+
 
 const Achievements = () => {
   return (
