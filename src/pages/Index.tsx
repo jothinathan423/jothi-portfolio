@@ -24,7 +24,6 @@ const Index = () => {
       <Skills />
       <Projects />
       <Achievements />
-      <ProfileStats/>
       <ProblemSolving />
       <Participation />
       <Certifications />
